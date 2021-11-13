@@ -1,7 +1,7 @@
 import { useState } from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import { test } from "@vite-mono/lib-cjs-remote";
+import { test } from "@vite-mono/lib-cjs";
 
 function App() {
   const [count, setCount] = useState(0);
