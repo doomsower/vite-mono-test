@@ -1,0 +1,19 @@
+{
+  "name": "@vite-mono/lib-esm",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "dist/index.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": [
+            "esnext"
+        ],
+        "declaration": true,
+        "strict": true,
+        "strictFunctionTypes": false,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "importHelpers": true,
+        "jsx": "react",
+        "resolveJsonModule": true,
+        "noFallthroughCasesInSwitch": true,
+        "useUnknownInCatchVariables": false,
+        "outDir": "./dist"
+    }
+}
